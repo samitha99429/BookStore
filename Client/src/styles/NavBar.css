@@ -1,0 +1,46 @@
+.custom-navbar {
+  background-color: #522f0c !important;
+  font-family:'Courier New', Courier, monospace;
+  transition: background-color 0.2s ease;
+  color: #ffffff !important;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+
+
+.custom-navbar .ant-menu-item {
+  color: #ffffff !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.custom-navbar .ant-menu-item:hover {
+  background-color: #6a3d1b !important; 
+  color: #ffffff !important;
+}
+
+
+.custom-navbar .ant-menu-item-selected {
+  background-color: #6a3d1b !important; 
+color: #ffffff !important;
+}
+
+.custom-navbar .ant-input {
+  background-color: #ffffff;
+  color: #522f0c;
+}
+
+.custom-navbar .ant-btn {
+  background-color: #6a3d1b;
+  color: #ffffff;
+}
+.custom-navbar .search-bar{
+
+margin-top: 5px;
+}
+
+
+.navbar-logo {
+  max-height: 40px;
+  object-fit: contain;
+}

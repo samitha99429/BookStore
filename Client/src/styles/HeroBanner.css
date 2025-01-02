@@ -1,0 +1,116 @@
+.hero-banner {
+    position: relative;
+    width: 100%;
+    height: 60vh; 
+    overflow: hidden;
+  }
+  
+
+  .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  
+
+  .hero-content {
+    text-align: center;
+    color: white;
+    max-width: 60%;
+  }
+  
+ 
+  .hero-title {
+    font-weight:lighter;
+    font-family:'Lobster', cursive; 
+    font-size: 5rem; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);  
+    margin-bottom: 1rem;
+    opacity:0.4; 
+    animation: fadeInScale 4s ease-out forwards; 
+  }
+  
+  
+  @keyframes fadeInScale {
+    0% {
+      opacity: 0;
+      transform: scale(0.8); 
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1); 
+    }
+  }
+  
+  
+  
+  .hero-paragraph {
+    font-weight: 100px;
+    font-size: 1rem; 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); 
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: start;
+    width: 100%;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap; 
+    overflow: hidden; 
+    border-right: 2px solid rgba(255, 255, 255, 0.8); 
+    animation: typing 4s steps(60, end), blink 0.75s step-end infinite;
+  }
+  
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%; 
+    }
+  }
+  
+  
+  @keyframes blink {
+    from {
+      border-color: rgba(255, 255, 255, 0.8);
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+  
+  .hero-button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+   
+    background: #ffffff;
+    color: #522f0c;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+  }
+  
+  .hero-button:hover {
+    background: #d7a56d;
+    color: #ffffff;
+    transform: scale(1.1);
+  }

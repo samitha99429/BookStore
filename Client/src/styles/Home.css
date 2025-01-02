@@ -1,0 +1,71 @@
+
+  
+  .banner-img {
+    max-width: 100%;
+    height: auto;
+    
+   
+  }
+  
+  .book-list {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+  .book-list > .book-card-container {
+    margin-bottom: 20px;
+  }
+  
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 50%;
+    inset: 0;
+    overflow: hidden;
+  }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+  .section-heading{
+    font-size: 1.5rem;
+    color: #522f0c;
+    margin-bottom:0rem;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Lobster', cursive;
+    margin-left: 80px;
+
+  }
+
+  .readyfy {
+    font-weight:900;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    font-family: 'Work Sans', sans-serif;
+    color: #522f0c; 
+    background-color: blanchedalmond;
+  }
+  .herointro-paragraph{
+
+    font-weight:lighter;
+    font-size: 1rem;
+    margin: 0 auto;
+    line-height: 1.2;
+    text-align: center;
+    width:40%;
+    letter-spacing: 0.5px;
+    font-family:'courier new', sans-serif;
+    margin-top: 50px;
+    color: gray;
+  
+  }
